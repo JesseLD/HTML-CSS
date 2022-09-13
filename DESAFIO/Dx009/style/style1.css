@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body{
+    background-color: currentColor;
+}
+div{
+    text-align: center;
+}
+h1{
+    color: white;
+    font-family: 'Segoe UI';
+    text-align: center;
+
+}
+p{
+    text-align: center;
+    font-family:'Segoe UI';
+
+}
+p a{
+    text-decoration: unset;
+    color:white;
+    
+}
