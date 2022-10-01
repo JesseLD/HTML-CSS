@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+       table{
+        border-collapse: collapse;
+        width: 500px;
+       }
+      
+        td,th{
+            border: 1px solid black;
+            padding: 5px;
+        }
+        table tbody tr td{
+            text-align: center;
+        }
+        .red{
+            background-color: red;
+        }
+        .green{
+            background-color: chartreuse;
+        }
+        .blue{
+            background-color: lightblue;
+        }
+
+
+
+    </style>
+    <title>Tabelas 5</title>
+</head>
+<body>
+    <h1>Tabelas 5</h1>
+    <h2>ColGroup</h2>
+
+    <table>
+        <caption>Cadastro de pessoas</caption>
+        <colgroup>  
+            <col class="green">
+            <col class="red">
+            <col class="blue">
+        </colgroup>
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>João</td>
+                <td>28</td>
+                <td>Programador</td>
+            </tr>
+            <tr>
+                <td>Fusca</td>
+                <td>18</td>
+                <td>Motor V8</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>25</td>
+                <td>Onlyfans</td>
+            </tr>
+            <tr>
+                <td>Joana</td>
+                <td>30</td>
+                <td>Uber</td>
+            </tr>
+        </tbody>
+
+    </table>
+</body>
+</html>
